@@ -7,7 +7,7 @@ maven "maven1"
 stages{
 stage('checkout'){
 steps{
-git branch: 'main', url:'https://github.com/Karsindia/Nov-2023.git'
+git branch: 'main', url:'https://github.com/Karsindia/Hello_world.git'
 }
 }
 stage('create binaries'){
